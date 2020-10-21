@@ -1,6 +1,6 @@
-# Next Boilerplate
+# GetOrder
 
-A starter point for Next.js projects.
+GetOrder is an ordering application that powers restaurants and stores.
 
 ## Available commands
 
