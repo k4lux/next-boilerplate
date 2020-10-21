@@ -1,6 +1,6 @@
-# GetOrder
+# Next Boilerplate
 
-GetOrder is an ordering application that powers restaurants and stores.
+A starter boilerplate for Next.js based apps
 
 ## Available commands
 
