@@ -28,10 +28,19 @@ export const Field = styled.input<{ error?: string }>`
   width: 100%;
   box-sizing: border-box;
 
+  &:focus {
+    outline: none;
+    ${props => `
+      box-shadow: 0 0 0px 1px ${props.theme.colors.primary} inset;
+      border-color: ${props.theme.colors.primary};
+    `}
+  }
+
   ${props =>
     props.error &&
     css`
-      outline: ${props.theme.colors.alert} auto 1px;
+      box-shadow: 0 0 0px 1px ${props.theme.colors.alert} inset;
+      border-color: ${props.theme.colors.alert};
     `}
 `
 
